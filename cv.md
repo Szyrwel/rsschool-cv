@@ -20,3 +20,10 @@
 ```
 
 ---
+## **Education**
+* #### 2022 - The Rolling Scopes School - JS / FRONT-END. STAGE 0 (in progress)
+* #### 2011 - Belarusian State University - lawyer
+---
+## **Language**
+* #### English - A2
+* #### Polish - A2
