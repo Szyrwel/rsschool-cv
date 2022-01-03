@@ -1,1 +1,1 @@
-# rsschool-cv
+https://szyrwel.github.io/rsschool-cv/
