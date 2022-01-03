@@ -1,50 +1,133 @@
 @font-face {
-    font-family: 'Poppins';
+    font-family: Poppins;
     src: url("assets/fonts/Poppins-Light.ttf");
     font-weight: 100;
 }
 @font-face {
-    font-family: 'Poppins';
-    src: url("assets/fonts/Poppins-Bold.ttf");
-    font-weight: 300;
+    font-family: Poppins;
+    src: url("assets/fonts/Poppins-Black.ttf");
+    font-weight: 400;
 }
-*{
-    box-sizing: border-box;
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+        flex-direction: column;
+    }
 }
-.header{
-    border: 1px solid red;
-}
-.main{
-    border: 1px solid black;
-}
-.footer{
-    border: 1px solid green;
-}
-.body{
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.5;
+    color: white;
     min-height: 100vh;
-    margin: 0; 
+    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #210E07;
+    flex-wrap: wrap;
+}
+*{
+    box-sizing: border-box;
+}
+.header {
+    border: none;
+    background-color: #E3B291;
+}
+.main {
+    background-color: #210E07;
+    border: none;
+}
+.footer {
+    background-color: #E3B291;
+    border: none;
 }
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;    
 }
-.nav-list{
+.nav-list {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     align-items: center;
+    list-style: none; 
 }
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
+  }
+  .nav-link {
+      padding: 0 20px;
+      line-height: 50px;
+      transition: 0.3s;
+      text-decoration: none;
+      color: white;
+      font-size: 22px;
+  }
+  .nav-item a {
+    color: white;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+   .main-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  .section {
+      width: 50%;
+      padding: 0 3%;
+  }
+  .section-title {
+      font-size: 26px;
+      font-weight: 1400;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      color: #E3B291;
+  }
+  .rsslogo {
+    width: 121px;
+    /* height: 45px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .footer-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      text-decoration: none;
+      margin: 0 auto;
+      color: white;
+  }
+  .footer-link {
+      color: white;
+      text-decoration: none;
+  }
+  .nav-item {
+    min-height: 40px;
 }
-.nav-list{
-    list-style: none;
+
+.nav-item:hover {
+    background-color: #4d2323; ;
 }
-.nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-    transition: .5s;
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: space-around;
+    }
+    .projects-link {
+    color: white;
+    text-decoration: none;
+    }
+.navigation {
+    display: flex;
+    justify-content:flex-end;
 }
