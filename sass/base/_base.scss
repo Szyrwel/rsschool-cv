@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  color: $color-light;
+  transition: .2s;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Dosis", sans-serif;
+}
+
